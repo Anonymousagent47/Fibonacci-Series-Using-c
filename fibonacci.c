@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int fn=0,sn=1,tn,num,i=2;
+    int fn=0,sn=1,tn,num,i=2;  //Here i=2 because 0 & 1 is already declared in 'fn' and 'sn'
     printf("Enter Number: ");
     scanf("%d",&num);
     printf("%d\n%d\n",fn,sn);
